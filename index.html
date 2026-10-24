@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d12">
+  <meta name="description" content="Zuben เบราว์เซอร์สำหรับ Windows ที่ขับเคลื่อนด้วย Chromium พร้อม uBOLite, การควบคุมป๊อปอัป และหน้าต่าง Native Windows">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Zuben — เว็บในแบบของคุณ">
+  <meta property="og:description" content="เบราว์เซอร์ Chromium สำหรับ Windows ที่เรียบง่าย เป็นส่วนตัว และพร้อมบล็อกโฆษณา">
+  <meta property="og:image" content="/assets/zuben-icon.svg">
+  <title>Zuben — เบราว์เซอร์ Windows ที่เป็นของคุณ</title>
+  <link rel="icon" type="image/png" href="/assets/zuben-icon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Zuben หน้าแรก"><img src="/assets/zuben-icon.svg" alt="" width="36" height="36"><span>ZUBEN</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="เปิดเมนู"><span></span><span></span></button>
+    <nav id="main-nav" class="nav-links" aria-label="เมนูหลัก">
+      <a href="#features">ฟีเจอร์</a>
+      <a href="#privacy">ความเป็นส่วนตัว</a>
+      <a href="#faq">คำถามที่พบบ่อย</a>
+      <a class="nav-download" href="#download">ดาวน์โหลด <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> BROWSER FOR WINDOWS · POWERED BY CHROMIUM</p>
+        <h1>เว็บของคุณ<br><span>ควรเป็นของคุณ</span></h1>
+        <p class="hero-lede">Zuben คือเบราว์เซอร์ Windows ที่ให้คุณท่องเว็บได้คล่องขึ้น พร้อม uBOLite และการควบคุมป๊อปอัปตั้งแต่เริ่มใช้</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/teera3447/zuben-browser/releases/download/v0.1.0-preview.1/Zuben-Native-Windows-x64.zip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg> ดาวน์โหลดสำหรับ Windows <span class="button-arrow">↓</span></a>
+          <a class="button button-quiet" href="https://github.com/teera3447/zuben-browser/releases/download/v0.1.0-preview.1/Zuben-Native-source.zip" target="_blank" rel="noreferrer">ดูซอร์สโค้ด <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="release-meta"><span class="windows-mark" aria-hidden="true">⊞</span><span>Windows 10/11 · 64-bit</span><span class="meta-divider"></span><span>ฟรี · โอเพนซอร์ส</span></div>
+      </div>
+      <div class="hero-visual" aria-label="ภาพจำลองหน้าต่างเบราว์เซอร์ Zuben">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="browser-window">
+          <div class="browser-titlebar"><div class="mini-brand"><img src="/assets/zuben-icon.svg" alt="" width="18" height="18"><span>Zuben</span></div><div class="window-controls"><i></i><i></i><i></i></div></div>
+          <div class="browser-tabs"><div class="mock-tab"><span class="tab-favicon">✦</span><span>แท็บใหม่</span><b>×</b></div><div class="mock-tab mock-tab-active"><span class="tab-favicon">◉</span><span>เว็บในแบบของคุณ</span><b>×</b></div><button class="mock-plus" aria-label="แท็บใหม่">+</button></div>
+          <div class="browser-toolbar"><span class="tool-icon">‹</span><span class="tool-icon">›</span><span class="tool-icon">↻</span><div class="mock-address"><span class="lock">◈</span><span>ค้นหาหรือพิมพ์ที่อยู่เว็บ</span><span class="address-star">☆</span></div><span class="tool-icon">↓</span><span class="tool-icon">⋮</span></div>
+          <div class="mock-page"><div class="mock-glow"></div><div class="mock-page-content"><img src="/assets/zuben-icon.svg" alt="" width="54" height="54"><p class="mock-kicker">WELCOME TO YOUR WEB</p><strong>เริ่มต้นได้<br>อย่างอิสระ</strong><div class="mock-search"><span>ค้นหาเว็บหรือพิมพ์ URL</span><span>↵</span></div><div class="mock-shortcuts"><i>G</i><i>▶</i><i>＋</i></div></div></div>
+          <div class="status-chip"><span class="live-dot"></span> uBOLite พร้อมทำงาน</div>
+        </div>
+        <div class="hero-orbit-label label-top"><span>⌁</span> Chromium engine</div>
+        <div class="hero-orbit-label label-bottom"><span>◈</span> Native Windows window</div>
+      </div>
+      <a class="scroll-cue" href="#features"><span></span> เลื่อนเพื่อสำรวจ</a>
+    </section>
+
+    <section class="feature-intro shell" id="features">
+      <div class="section-heading"><p class="eyebrow">BROWSING, REFINED</p><h2>ทุกอย่างที่จำเป็น<br><span>ไม่มีอะไรขวางทาง</span></h2></div>
+      <p class="section-note">หน้าต่าง Windows จริงที่ขับเคลื่อนด้วย Chromium ใช้เว็บและทางลัดที่คุ้นเคย ในพื้นที่ที่ออกแบบมาให้โฟกัสกับสิ่งที่คุณเปิดดู</p>
+    </section>
+
+    <section class="feature-grid shell" aria-label="ฟีเจอร์ของ Zuben">
+      <article class="feature-card feature-card-large"><div class="card-top"><span class="feature-icon icon-blue">◉</span><span class="card-index">01 / ENGINE</span></div><h3>ขับเคลื่อนด้วย Chromium</h3><p>ใช้งานเว็บสมัยใหม่ได้ลื่นไหล พร้อมแถบนำทาง ช่องค้นหา และการควบคุมหน้าเว็บที่คุ้นเคย</p><div class="engine-graphic"><span>WEB</span><i></i><b>CHROMIUM</b><i></i><span>ZUBEN</span></div></article>
+      <article class="feature-card"><div class="card-top"><span class="feature-icon icon-violet">▤</span><span class="card-index">02 / TABS</span></div><h3>จัดการแท็บง่าย</h3><p>เปิด ปิด สลับแท็บ และเรียกแท็บที่เพิ่งปิดกลับมาได้ พร้อมจำเซสชันเมื่อเปิดโปรแกรมอีกครั้ง</p><div class="tab-pills"><i>หน้าแรก</i><i>งาน</i><i>＋</i></div></article>
+      <article class="feature-card"><div class="card-top"><span class="feature-icon icon-green">◈</span><span class="card-index">03 / PRIVACY</span></div><h3>uBOLite พร้อมใช้</h3><p>ตัวบล็อกเนื้อหาในตัวช่วยลดโฆษณาและสิ่งรบกวน โดยไม่ต้องเริ่มจากการติดตั้งส่วนเสริมเอง</p><div class="privacy-meter"><span>ตัวบล็อกเนื้อหา</span><b>พร้อมทำงาน <i></i></b></div></article>
+      <article class="feature-card"><div class="card-top"><span class="feature-icon icon-amber">⌁</span><span class="card-index">04 / CONTROL</span></div><h3>ควบคุมป๊อปอัป</h3><p>ป้องกันหน้าต่างเปล่าที่ถูกเปิดโดยไม่มีการคลิกจากผู้ใช้ ช่วยลดการเด้งไปหน้าเว็บอื่นโดยไม่ตั้งใจ</p><div class="popup-demo"><span>หน้าต่างป๊อปอัป</span><b>ถูกบล็อก</b><span>✓</span></div></article>
+      <article class="feature-card feature-card-wide" id="privacy"><div class="card-top"><span class="feature-icon icon-cyan">◌</span><span class="card-index">05 / PRIVATE</span></div><div class="wide-copy"><h3>มีพื้นที่ส่วนตัวเมื่อจำเป็น</h3><p>เปิดหน้าต่างไม่ระบุตัวตนพร้อมบริบทแยกจากเซสชันปกติ และกลับมาใช้แท็บเดิมได้ในครั้งถัดไป</p></div><div class="private-visual"><div class="private-window"><span>◒</span><i></i><i></i><i></i></div><span class="private-badge">PRIVATE SESSION</span></div></article>
+    </section>
+
+    <section class="workflow shell">
+      <div class="workflow-copy"><p class="eyebrow">MADE FOR THE EVERYDAY</p><h2>คีย์ลัดที่ใช่<br>ช่วยให้ทุกอย่างเร็วขึ้น</h2><p>ใช้ทางลัดมาตรฐานเพื่อไปต่อได้ทันที ไม่ว่าจะจัดการแท็บหรือเปิดหน้าต่างส่วนตัว</p><a href="#download" class="text-link">เริ่มใช้ Zuben <span>↗</span></a></div>
+      <div class="shortcut-list">
+        <div><span>เปิดแท็บใหม่</span><kbd><i>Ctrl</i> T</kbd></div><div><span>ปิดแท็บปัจจุบัน</span><kbd><i>Ctrl</i> W</kbd></div><div><span>เปิดแท็บที่ปิดล่าสุด</span><kbd><i>Ctrl</i><i>Shift</i> T</kbd></div><div><span>หน้าต่างไม่ระบุตัวตน</span><kbd><i>Ctrl</i><i>Shift</i> N</kbd></div><div><span>สลับแท็บถัดไป</span><kbd><i>Ctrl</i> Tab</kbd></div>
+      </div>
+    </section>
+
+    <section class="download-section" id="download">
+      <div class="download-inner shell"><div class="download-orb"><img src="/assets/zuben-icon.svg" alt="" width="64" height="64"></div><p class="eyebrow">YOUR WINDOWS BROWSER</p><h2>พร้อมเปิดเว็บ<br><span>ในแบบของคุณหรือยัง</span></h2><p class="download-note">ดาวน์โหลด Zuben สำหรับ Windows 10/11 แบบ 64-bit แล้วเริ่มใช้งานได้ทันที</p><a class="button button-primary button-download" href="https://github.com/teera3447/zuben-browser/releases/download/v0.1.0-preview.1/Zuben-Native-Windows-x64.zip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg> ดาวน์โหลด Zuben <span class="button-arrow">↓</span></a><p class="download-footnote">ไฟล์ ZIP · Windows x64 · ดาวน์โหลดจาก GitHub Releases</p></div>
+    </section>
+
+    <section class="faq-section shell" id="faq"><div class="faq-heading"><p class="eyebrow">GOOD TO KNOW</p><h2>คำถามที่พบบ่อย</h2></div><div class="faq-list">
+      <details><summary>Zuben ใช้งานบนระบบปฏิบัติการใดได้บ้าง?<span>＋</span></summary><p>แพ็กเกจปัจจุบันสำหรับ Windows 10 และ Windows 11 แบบ 64-bit</p></details>
+      <details><summary>ต้องติดตั้ง uBOLite เองหรือไม่?<span>＋</span></summary><p>ไม่ต้อง รุ่น Windows ที่ดาวน์โหลดมาจะมี uBOLite และตั้งค่าให้โหลดพร้อมโปรแกรม</p></details>
+      <details><summary>ใช้ส่วนขยาย Chrome ทุกตัวได้หรือไม่?<span>＋</span></summary><p>รุ่นนี้รวม uBOLite ที่ทำงานกับ Chromium รุ่นปัจจุบัน ส่วนขยายจาก Chrome Web Store อาจใช้งานไม่ได้ครบทุกตัวใน CEF</p></details>
+      <details><summary>มีการซิงก์บัญชี Chrome หรือไม่?<span>＋</span></summary><p>ยังไม่มีการซิงก์บัญชี Google ระหว่างอุปกรณ์ โปรไฟล์และเซสชันจะเก็บไว้ในเครื่องนี้</p></details>
+    </div></section>
+  </main>
+
+  <footer class="site-footer shell"><a class="brand footer-brand" href="#top"><img src="/assets/zuben-icon.svg" alt="" width="30" height="30"><span>ZUBEN</span></a><p>เว็บเป็นของคุณ เริ่มต้นด้วย Zuben</p><div class="footer-links"><a href="https://github.com/teera3447/zuben-browser" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a href="https://github.com/teera3447/zuben-browser/releases" target="_blank" rel="noreferrer">ประวัติรุ่น <span>↗</span></a></div><small>© <span id="year"></span> Zuben · Built for Windows</small></footer>
+</body>
+</html>
